@@ -51,7 +51,7 @@ class APG_Campo_NIF_en_Direcciones {
 	
 	//Reordena los campos de la dirección predeterminada
 	public function apg_nif_formato_direccion_localizacion( $campos ) {
-		$campos['default']	= "{name}\n{company}\n{nif}\n{address_1}\n{address_2}\n{city}\n{state}\n{postcode}\n{country}\n{phone}\n{email}";
+		$campos['default']	= "{name}\n{company}\n{nif}\n{address_1}\n{address_2}\n{city}\n{state}\n{postcode}\n{country}\n{robophone}\n{email}";
 		$campos['ES']		= "{name}\n{company}\n{nif}\n{address_1}\n{address_2}\n{postcode} {city}\n{state}\n{country}\n{phone}\n{email}";
 		 
 		return $campos;
