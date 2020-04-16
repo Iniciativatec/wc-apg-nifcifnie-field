@@ -41,24 +41,24 @@ class APG_Campo_NIF_en_Pedido {
 			'placeholder'	=> $this->placeholder,
 			'priority'      => $campos[ 'company' ][ 'priority' ] + 1,
 		);
-		$campos[ 'email' ]	= array( 
-			'label'			=> __( 'Email Address', 'woocommerce' ),
-			'required'		=> true,
-			'type'			=> 'email',
-			'validate'		=> array( 
-				'email'
-			),
-			'autocomplete'	=> 'email username',
-		);
-		$campos[ 'phone' ]	= array( 
-			'label'			=> __( 'Phone', 'woocommerce' ),
-			'required'		=> true,
-			'type'			=> 'tel',
-			'validate'		=> array( 
-				'phone'
-			),
-			'autocomplete'	=> 'tel',
-		);
+		// $campos[ 'email' ]	= array( 
+		// 	'label'			=> __( 'Email Address', 'woocommerce' ),
+		// 	'required'		=> true,
+		// 	'type'			=> 'email',
+		// 	'validate'		=> array( 
+		// 		'email'
+		// 	),
+		// 	'autocomplete'	=> 'email username',
+		// );
+		// $campos[ 'phone' ]	= array( 
+		// 	'label'			=> __( 'Phone', 'woocommerce' ),
+		// 	'required'		=> true,
+		// 	'type'			=> 'tel',
+		// 	'validate'		=> array( 
+		// 		'phone'
+		// 	),
+		// 	'autocomplete'	=> 'tel',
+		// );
 
 		$campos[ 'postcode' ][ 'class' ][]	= 'update_totals_on_change';
 		$campos[ 'state' ][ 'class' ][]		= 'update_totals_on_change';
